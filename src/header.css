@@ -1,0 +1,17 @@
+/* Center the header content. */
+header {
+    text-align: center;
+}
+
+/* Create the dark banner behind the application title. */
+.title-container {
+    background-color: #25384a;
+    padding: 45px 20px;
+}
+
+/* Style the title for contrast and prominence in the banner. */
+.title-container h1 {
+    color: white;
+    font-size: 42px;
+    margin: 0;
+}

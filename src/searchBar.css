@@ -1,0 +1,31 @@
+/* Group and center the search and sorting controls. */
+.controls {
+    background-color: #304a63;
+
+    display: flex;             
+    justify-content: center;   /* Centers elements horizontally */
+    align-items: center;       /* Centers elements vertically */
+
+    gap: 12px;
+    padding: 20px;
+}
+
+/* Keep the search field and sort menu visually consistent. */
+#search-input,
+#sort-select {
+    width: 250px;
+    padding: 10px;
+
+    font-size: 16px;
+
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+
+    box-sizing: border-box;
+}
+
+/* Make the active control easy to identify during keyboard input. */
+#search-input:focus,
+#sort-select:focus {           /* Applies styling when an element has focus */
+    outline: 2px solid #2684ff;
+}

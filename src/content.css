@@ -1,0 +1,14 @@
+/* Wrap movie cards onto additional rows and center the results area. */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Let cards grow within the row while keeping a readable maximum width. */
+.movie-card {
+  flex: 1 1 200px;
+  max-width: 300px;
+}
